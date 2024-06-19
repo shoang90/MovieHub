@@ -1,0 +1,29 @@
+﻿body {
+}
+
+#logoNav {
+    height: 50px;
+}
+
+.categorieToken {
+    font-weight: bold;
+    color: deepskyblue;
+}
+
+.yellowLeftBorder {
+    border-left: 3px solid #ffc107;
+    padding-left: 8px;
+}
+
+.icon {
+    width: 30px;
+}
+
+#botContainer {
+    margin-bottom: 60px;
+}
+
+.favItem {
+    height: 200px;
+    width: 150px;
+}

@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|c:\\users\\steph\\onedrive\\documents\\csprojects\\exos_persos\\moviehub\\moviehub\\moviehub.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|solutionrelative:moviehub\\moviehub.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|c:\\users\\steph\\onedrive\\documents\\csprojects\\exos_persos\\moviehub\\moviehub\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|solutionrelative:moviehub\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|c:\\users\\steph\\onedrive\\documents\\csprojects\\exos_persos\\moviehub\\moviehub\\pages\\moviedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|solutionrelative:moviehub\\pages\\moviedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|c:\\users\\steph\\onedrive\\documents\\csprojects\\exos_persos\\moviehub\\moviehub\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|solutionrelative:moviehub\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|c:\\users\\steph\\onedrive\\documents\\csprojects\\exos_persos\\moviehub\\moviehub\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|solutionrelative:moviehub\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|c:\\users\\steph\\onedrive\\documents\\csprojects\\exos_persos\\moviehub\\moviehub\\pages\\mylibrary.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|solutionrelative:moviehub\\pages\\mylibrary.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|c:\\users\\steph\\onedrive\\documents\\csprojects\\exos_persos\\moviehub\\moviehub\\pages\\mylibrary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D992303-D7F1-4DC1-8A2F-F89B0AF74F12}|MovieHub\\MovieHub.csproj|solutionrelative:moviehub\\pages\\mylibrary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieHub",
+              "DocumentMoniker": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\MovieHub.csproj",
+              "RelativeDocumentMoniker": "MovieHub\\MovieHub.csproj",
+              "ToolTip": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\MovieHub.csproj",
+              "RelativeToolTip": "MovieHub\\MovieHub.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-19T19:00:28.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MovieHub\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MovieHub\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T18:13:57.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\Pages\\MovieDetails.cshtml",
+              "RelativeDocumentMoniker": "MovieHub\\Pages\\MovieDetails.cshtml",
+              "ToolTip": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\Pages\\MovieDetails.cshtml",
+              "RelativeToolTip": "MovieHub\\Pages\\MovieDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T15:49:16.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "MovieHub\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "MovieHub\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:40:35.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieHub\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\Pages\\Index.cshtml",
+              "RelativeToolTip": "MovieHub\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T14:12:45.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyLibrary.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\Pages\\MyLibrary.cshtml.cs",
+              "RelativeDocumentMoniker": "MovieHub\\Pages\\MyLibrary.cshtml.cs",
+              "ToolTip": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\Pages\\MyLibrary.cshtml.cs",
+              "RelativeToolTip": "MovieHub\\Pages\\MyLibrary.cshtml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwCQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T17:45:19.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyLibrary.cshtml",
+              "DocumentMoniker": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\Pages\\MyLibrary.cshtml",
+              "RelativeDocumentMoniker": "MovieHub\\Pages\\MyLibrary.cshtml",
+              "ToolTip": "C:\\Users\\steph\\OneDrive\\Documents\\csProjects\\exos_persos\\MovieHub\\MovieHub\\Pages\\MyLibrary.cshtml",
+              "RelativeToolTip": "MovieHub\\Pages\\MyLibrary.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T14:14:25.911Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

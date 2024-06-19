@@ -1,0 +1,147 @@
+﻿@page
+@model MovieHub.Pages.MovieDetailsModel
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Détails</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/glider.css">
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body class="bg-dark text-dark">
+    @if (Model.Movie != null)
+    {
+        @if (Model.Movie == null)
+        {
+            <p>Ce média est introuvable.</p>
+        }
+        else
+        {
+            if (Model.Movie.Type == "movie")
+            {
+                <h1 class="yellowLeftBorder text-light mt-3 ml-0">Votre film recherché</h1>
+            }
+            else if (Model.Movie.Type == "series")
+            {
+                <h1 class="yellowLeftBorder text-light mt-3 ml-0">Votre série recherchée</h1>
+            }
+        }
+
+        <div class="row bg-dark text-light">
+            <div class="col-8 mx-auto col-md-4 col-lg-3 pt-3 p-0">
+                <img class="img-fluid w-100" src="@Model.Movie.Poster" />
+            </div>
+            <div class="col-12 col-md p-3 ">
+                <h2 class="text-warning">@Model.Movie.Title</h2>
+                <p>
+                    <span class="categorieToken">Année :</span> @Model.Movie.Year <br />
+                    <span class="categorieToken">Genre : </span>@Model.Movie.Genre
+                </p>
+                <p>
+                    <span class="categorieToken">Synopis :</span> <br />
+                    @Model.Movie.Plot
+                </p>
+                <p>
+                    <span class="categorieToken">Casting : </span>@Model.Movie.Actors<br />
+                </p>
+            </div>
+            <div class="col-12 col-md-2 py-3 my-2 border border-light rounded-3 border-4 text-white d-flex flex-row flex-md-column">
+                <div class="d-inline-block p-2 text-center text-light col">
+                    <div class="d-flex flex-row flex-md-column text-justify">
+                        <div class="px-2 d-flex flex-column col my-2"><span class="categorieToken text-warning">Durée&nbsp;: </span><span>@Model.Movie.Runtime</span></div>
+                        <div class="px-2 d-flex flex-column col my-2"><span class="categorieToken text-warning">Langue&nbsp;: </span><span>@Model.Movie.Language</span></div>
+                        <div class="px-2 d-flex flex-column col my-2"><span class="categorieToken text-warning">Score IMDB </span><span>@Model.Movie.imdbRating&nbsp;/10</span></div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <form class="mb-2" method="post" asp-page-handler="AddToFavorites" asp-route-id="@Model.Movie.imdbID">
+                        <input type="hidden" name="id" value="@Model.Movie.imdbID" />
+                        <button id="favButton" type="submit" class="d-inline-block w-100 btn btn-outline-light border-2">
+                            <div>J'aime</div>
+
+                            @if (Model.Movie.isFavorite == false)
+                            {
+                                <div><img id="favIcon" class="icon" src="~/images/emptyHeartIcon.png" /></div>
+                            }
+                            else
+                            {
+                                <div><img id="favIcon" class="icon" src="~/images/filledHeartIcon.png" /></div>
+                            }
+                        </button>
+                    </form>
+                    <a class="btn btn-danger w-100" asp-page="MyLibrary">Vers mes favoris</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row bg-light">
+            <div class="col-12 col-md-6 border-bottom p-3">
+                <p><span class="categorieToken">Réalisateur : </span>@Model.Movie.Director</p>
+                <p><span class="categorieToken">Scénaristes : </span>@Model.Movie.Writer</p>
+                <p><span class="categorieToken">Sortie :</span> @Model.Movie.Released</p>
+                <p><span class="categorieToken">Classification : </span>@Model.Movie.Rated</p>
+
+            </div>
+            <div class="col-12 col-md-6 border-bottom bg-body-secondary text-dark p-3">
+                <p><span class="categorieToken">Distinctions :</span> @Model.Movie.Awards</p>
+                <p><span class="categorieToken">Box-office : </span>@Model.Movie.BoxOffice</p>
+                <p><span class="categorieToken">Pays d'origine : </span>@Model.Movie.Country</p>
+                <p><span class="categorieToken">DVD : </span>@Model.Movie.DVD</p>
+            </div>
+        </div>
+
+        <div id="botContainer" class="mt-5 text-white">
+            @if (Model.Movie.Type == "movie")
+            {
+                <h2 class="yellowLeftBorder">Vous aimerez peut-être ces films</h2>
+            }
+            else if (Model.Movie.Type == "series")
+            {
+                <h2 class="yellowLeftBorder">Vous aimerez peut-être ces séries</h2>
+            }
+
+            <div class="glider-contain">
+                <div class="glider">
+                    @foreach (var r in Model.Recommandations)
+                    {
+                        <form method="post">
+                            <input type="hidden" name="id" value="@r.imdbID" />
+                            <button type="submit" style="background: none; border: none; padding: 0; margin: 0;">
+                                <img class="h-100" src="@r.Poster" alt="@r.Title" />
+                            </button>
+                        </form>
+                    }
+                </div>
+                <div role="tablist" class="dots"></div>
+            </div>
+        </div>
+    }
+    else
+    {
+        @if (Model.Movie.Type == "movie")
+        {
+            <p>Ce film est inrouvable.</p>
+        }
+        else if (Model.Movie.Type == "series")
+        {
+            <p>Cette série est inrouvable.</p>
+        }
+    }
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/glider.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Glider(document.querySelector('.glider'), {
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                draggable: true,
+            });
+        });
+    </script>
+</body>
+</html>
